@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Стили первой секции  */
+.promo {
+  background-color: rgb(96, 96, 178);
+  text-align: center;
+  color: white;
+  height: 50vh;
+
+}
+
+h1 {
+  font-size: 55px;
+  padding-top: 20vh;
+  /* position: sticky;
+  top: 0; */
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.heading_purple {
+  color: rgb(96, 96, 178);position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.heading_white {
+  color: white;
+}
+
+/* Экран 2  */
+.about {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  
+}
+
+
+
+
+.about-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: right;
+}
+
+/* Экран 3 */
+.card {
+  position: relative;
+  display: inline-block;
+  border-radius: 30px;
+  border: 5px solid rgb(96, 96, 178);
+  width: 450px;
+}
+
+.game-img {
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+}
+
+.cards {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.eee {
+  position: absolute;
+  width: 100px;
+}
+
+.game-info {
+  padding: 15px;
+}
+
+.info {
+  display: inline-block;
+  width: 45%;
+  margin-bottom: 10px;
+}
+
+.info-grey {
+  color: rgb(131, 128, 128);
+}
+
+button {
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-top: 25px;
+  border: none;
+  background-color: rgb(115, 115, 177);
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+/* Экран 4  */
+.new-games {
+  width: 70%;
+  height: 460px;
+  margin: auto;
+}
+
+.new {
+  font-size: 205px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(34, 34, 83);
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  width: 40%;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+ol {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-style: normal;
+  margin-left: 50px;
+  margin-bottom: 40px;
+
+}
+.ddd {
+position: fixed;
+right: 20px;
+bottom: 20px;
+}
